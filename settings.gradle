@@ -1,3 +1,4 @@
+include ':common'
 include ':catalog'
 include ':demos:java:io:material:demo:shrine:theme'
 include ':testing:java:com:google:android:material:testapp:custom'
