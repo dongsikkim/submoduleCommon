@@ -1,0 +1,3 @@
+[submodule "material-components-android"]
+	path = material-components-android
+	url = https://github.com/material-components/material-components-android.git
