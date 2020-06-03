@@ -1,5 +1,10 @@
 # 1. 사용하는 프로젝트에서
 
+간단하게 submodule동작을 확인하는 프로젝트입니다.
+현재 프로젝트에서 Lottie를 사용하되, 추가된 submodule의 dependency를 이용해 사용할 것입니다.
+(현재 프로젝트의 build.gradle에는 Lottie depdency 추가하지 않음)
+
+
 ### 1) 서브모듈 주소를 추가
 ```git
 git submodule add https://github.ncsoft.com/mobiledev/submoduleCommon.git
@@ -29,7 +34,7 @@ kimdongikuiiMac:testProject kimdongsik$
 ### 3) 내 프로젝트에 module Dependency로 추가
 > Android Studio menu의 file > project Structure > Dependencies > app모듈 선택 > Declared Dependencies탭의 '+'선택 > Module Dependency선택 > common 모듈 선택 > Ok > Apply > Ok
 
-
+### 4) common의 Lottie 클래스 가져오는것 확인하기
 <img src="./submodule.gif" width="70%">
 내 프로젝트의 :app모듈에 MainActivity에서 LottieAnim을 치면 자동완성되는것을 확인할 수 있습니다.
 내 프로젝트 app Module에는 Lottie Dependency가 없지만, common의 dependepcy가 share되어 접근 가능한것을 볼수 있습니다.
