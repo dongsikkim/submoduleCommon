@@ -1,6 +1,11 @@
-#  submodule사용하기
+# git Submodule사용하기
 
-간단하게 submodule동작을 확인하는 프로젝트입니다.
+submodule동작을 확인하는 프로젝트입니다.
+간단하게는 설명하면
+```
+git submodule add [repository url]
+```
+위의 명령어와 project모듈을 import하면 끝나지만 한단계씩 만들어가는 과정을 설명했습니다.
 
 ## 1. common 모듈 만들기
 
