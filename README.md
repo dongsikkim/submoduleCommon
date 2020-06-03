@@ -42,7 +42,7 @@ api로 Lottie를 가져와야 :common모듈을 사용하는 곳에서도 share d
 :common모듈의 AndroidManifest의 intent-filte를 모두 제거 합니다.
 
 ```xml
-//인텐트 필터를 모두 제거 합니다.
+/** AndroidManifest.xml의 인텐트 필터를 모두 제거 합니다. */
            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
