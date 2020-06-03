@@ -22,7 +22,7 @@ testProject에서 가져다가 써볼려고 합니다.
 
 새로운 프로젝트를 하나 생성하고, 공통으로 사용될 모듈 :common 모듈을 추가합니다.
 
-> File > New > New Module > Android Library > Finish
+> File > New > New Module > Android Library > 이름 'common'으로 입력 > Finish
 
 
 ### 2) 공통으로 사용할 dependency 추가
