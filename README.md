@@ -34,6 +34,7 @@ api로 Lottie를 가져와야 :common모듈을 사용하는 곳에서도 share d
 
 
 ### 3) 공통으로 사용할 부분 구현
+<img src="./loadDefaultLottie.png" width="70%">. 
 
 공용으로 사용될 부분을 구현합니다. LottieAnimationView의 확장함수를 하나 만들었습니다.  
 
