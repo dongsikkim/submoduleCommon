@@ -17,6 +17,13 @@ fun LottieAnimationView.loadDefaultLottie(anim: LottieAnim = LottieAnim.LIKE) {
         setAnimation(anim.resId)
         playAnimation()
     }
+
+    addAnimatorListener(object : LottieAnimListener() {
+        override fun onAnimationEnd(animation: Animator?) {
+            super.onAnimationEnd(animation)
+            visibility = View.GONE
+        }
+    })
 }
 
 enum class LottieAnim(@IdRes val resId: Int) {
