@@ -29,6 +29,8 @@ kimdongikuiiMac:testProject kimdongsik$
 ### 3) 내 프로젝트에 module Dependency로 추가
 > Android Studio menu의 file > project Structure > Dependencies > app모듈 선택 > Declared Dependencies탭의 '+'선택 > Module Dependency선택 > common 모듈 선택 > Ok > Apply > Ok
 
+
+<img src="./submodule.gif" width="70%">
 내 프로젝트의 :app모듈에 MainActivity에서 LottieAnim을 치면 자동완성되는것을 확인할 수 있습니다.
 내 프로젝트 app Module에는 Lottie Dependency가 없지만, common의 dependepcy가 share되어 접근 가능한것을 볼수 있습니다.
 
