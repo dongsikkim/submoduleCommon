@@ -3,6 +3,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    resourcePrefix 'n11_common_'
+
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
@@ -22,7 +24,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    resourcePrefix 'common_'
 }
 
 dependencies {
