@@ -22,7 +22,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    resourcePrefix 'common'
+    resourcePrefix 'common_'
 }
 
 dependencies {
